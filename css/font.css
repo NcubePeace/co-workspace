@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "sareeka";
+    src: url(../sareeka/Sareeka-demo.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: "ubuntu-font-family-0.80";
+    src: url(../ubuntu-font-family-0.80/Ubuntu-M.ttf);
+    font-style: normal;
+}

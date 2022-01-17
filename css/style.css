@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    display: flex;
+}
+    
+header img{
+    width: 30px;
+    margin-left: 20px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+img{
+    width: 100%;
+    }
+.hero-inner{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.hero-inner h1{
+    font-size: 20px;
+}
+.hero-inner p{
+    font-family: "sareeka";
+    font-size: 25px;
+    padding-top: 10px;
+}
+.services {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.services p {
+    padding: 30px;
+    color: gray;
+}
+.services h3 {
+    font-family: "Ubuntu-font-family-0.80";
+}
+.sign-up {
+    background-color:rgb(212, 205, 192);
+    margin-bottom: 20px;
+}
+.inner-up {
+    padding: 20px;
+}
+.sign-up .inner-up h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    color: rgb(56, 54, 54);
+    text-align: center;
+    font-family: "Ubuntu-font-family-0.80";
+}
+.sign-up p{
+    text-align: center;
+    color: grey;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.sign-up a {
+    background-color: rgb(201, 110, 7);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+.sign-up limg {
+    width: 100%;
+}
+.comments h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-family: "Ubuntu-font-family-0.80";
+    text-align: center;
+}
+.comm-items {
+    text-align: left;
+}
+.comments .comm-inner .comm-items p{
+    padding-bottom: 30px;
+    font-family: "Ubuntu-font-family-0.80";
+    color: grey;
+    margin: 10px;
+}
+.comments .comm-inner .comm-items h4 {
+    padding-bottom: 90px;
+    color: rgb(61, 60, 60);
+    font-family: "Ubuntu-font-family-0.80";
+    padding-left: 10px;
+}
+.subscribe h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 80px;
+    color: white;
+}
+.subscribe {
+    background-color: rgb(224, 130, 36);
+    padding: 10px;
+    height: 200px;
+}
+form {
+    display: flex;
+    border: orange;
+    height: 60px;
+    margin: 0 auto;
+    width: max-content;
+    display: block;
+
+}
+form .name{
+    border-radius: 20px 0 0 20px;
+    height: 35px;
+    width: 80px;
+    border: orange;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 10px;
+}
+form .email{
+    border-radius: 0px 20px 20px 0px;
+    height: 35px;
+    width: 80px;
+    border: orange;
+    padding: 10px;
+    
+}
+form button{
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    background-color: rgb(77, 74, 74);
+    border: orange;
+    margin-left: 10px;
+    height: 35px;
+    width: 80px;
+    padding-top: 10px 10px;
+}
+ 
+footer {
+    background-color:rgb(24, 23, 23);
+    text-align: center;
+ }
+
+footer ul li {font-size: 15px;}
+footer  ul li {display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer h6 {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(102, 101, 98);
+    padding: 30px 0px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(196, 194, 189);
+    padding: 5px;
+    list-style-type: none;
+}
+
+ footer img{
+    margin-bottom: 10px;
+    width: 30px;
+    margin: 0 auto;
+    margin: 40px 60px;
+ }
+ footer hr{
+     width: 100px;
+     height: 2px;
+     margin:0 auto;
+     background-color: rgb(31, 28, 28);
+     margin-top: 30px;
+     border: rgb(31, 28, 28);
+
+ }
+
+@media(min-width:568px){
+    .sign-up a{
+        margin-left: 200px;
+    }
+    .hero-inner h1{
+        font-size: 25px;
+        color: white;
+    }
+    .hero-inner p{
+        font-family: "sareeka";
+        font-size: 40px;
+        color: white;
+    }
+    form{
+        margin-left: 10px;
+    }
+    .subscribe h2{
+        margin-top: 80px;
+    }
+    form .name{
+        height: 35px;
+        width: 200px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    form .email{
+        padding-left: 20px;
+        height: 35px;
+        width: 200px;
+        font-size: 15px;
+    }
+    form button {
+        padding: 20px;
+        padding-top: 10px;
+    
+    }
+    .comments .comm-inner {
+        background-color: rgb(212, 205, 192);
+    }
+    .comments .comm-inner .comm-items {
+        padding: 30px;
+    }
+    footer hr{
+        width: 200px;
+        height: 2px;
+        margin:0 auto;
+        background-color: rgb(31, 28, 28);
+        margin-top: 30px;
+        border: rgb(31, 28, 28);
+    }
+    
+}
+
+@media(min-width:768px){
+    header ul li a{
+        font-size: 20px;
+    }
+    .hero-inner h1{
+        font-size: 50px;
+        color: white;
+    }
+    .hero-inner p{
+        font-size: 40px;
+        color: white;
+    }
+    .services {
+        flex-direction: row;
+        columns: 3 auto;
+
+    }
+    .services .about-items{
+        flex-direction: column;
+    }
+    .services h3 {
+        font-size: 20px;
+    }
+    .services p {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .sign-up .inner-up h2 {
+        font-size: 20px;
+    }
+    .sign-up img{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 15px;
+    }
+    .sign-up .inner-up p {
+        font-size: 20px;
+    }
+    .sign-up a{
+        background-color: rgb(201, 110, 7);
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: sans-serif;
+        margin: 0 auto;
+        width: max-content;
+        display: block;
+    }
+    .comments h2{
+        font-size: 20px;
+        
+    }
+    .comments .comm-inner .comm-items p{
+        font-size: 15px;
+    }
+    .comments .comm-inner .comm-items h4{
+        font-size: 20px;
+    }
+    .subscribe h2 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .subscribe {
+        height: 300px;
+        padding: 30px;
+    }
+    form {
+        margin-left: 30px;
+        
+    }
+    form .name{
+        height: 45px;
+        width: 180px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    form .email{
+        padding-left: 20px;
+        height: 45px;
+        width: 180px;
+        font-size: 20px;
+    
+    }
+    form button{
+        margin-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        height: 45px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .comments .comm-inner {
+        flex-direction: row;
+        columns: 3 auto;
+        background-color: rgb(212, 205, 192);
+        margin: 30px;
+    }
+    .comments .comm-inner .comm-items {
+        flex-direction: column;
+        justify-content: left;
+        padding: 20px;
+    }
+    footer h6 {
+        font-size: 20px;
+    }
+    footer ul li a {
+        font-size: 20px;
+        padding: 10px;
+        color: rgb(208, 216, 208);
+    }
+    footer img{
+        width: 50px;
+    }
+    footer hr{
+        width: 400px;
+    }
+         
+}
+
+@media(min-width:992px){
+    .hero-inner h1{
+        font-size: 50px;
+        color: white;
+    }
+    .hero-inner p{
+        font-family: "sareeka";
+        font-size: 40px;
+        color: white;
+    }
+    .sign-up a{
+        margin-left: 400px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    form {
+        margin-left: 200px;
+        
+    }
+    
+}
+
+@media(min-width:1200px){
+    .hero-inner h1{
+        color: white;
+    }
+    .hero-inner p{
+        color: white;
+    }
+    .services h3 {
+        font-size: 30px;
+    }
+    .sign-up .inner-up h2{
+        font-size: 30px;
+    }
+    .sign-up a{
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .comments h2{
+        font-size: 30px;
+        
+    }
+    .comments .comm-inner .comm-items p{
+        font-size: 25px;
+    
+    }
+    form {
+        margin-left: 350px;
+        
+    }
+    .comments .comm-inner .comm-items {
+        padding: 30px;
+    }
+    form{
+        margin-left: 350px;
+    }  
+}
+    
+
+
+
+

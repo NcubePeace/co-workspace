@@ -8,3 +8,8 @@
     src: url(../ubuntu-font-family-0.80/Ubuntu-M.ttf);
     font-style: normal;
 }
+@font-face {
+    font-family: "Lato";
+    src: url(../Lato/Lato-Bold.ttf);
+    font-style: normal;
+}
